@@ -11,4 +11,3 @@ print("I have to run on the treadmill for", remaining_days, "more days")
 
 #check the type of variable for remaining_days
 print("the type of variables for remaining_days is", type(remaining_days))
-
