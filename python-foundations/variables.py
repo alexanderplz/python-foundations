@@ -5,9 +5,10 @@ days_on_treadmill = 72
 days_in_year = 365
 
 #calculate the remaining about of days the user has to run on threadmill
-remaining_days = days_in_year = 365 - days_on_treadmill
+remaining_days = days_in_year - days_on_treadmill
 
 print("I have to run on the treadmill for", remaining_days, "more days") 
 
 #check the type of variable for remaining_days
 print("the type of variables for remaining_days is", type(remaining_days))
+
