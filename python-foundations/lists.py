@@ -14,5 +14,12 @@ weightlifting_stats = [["Bench Press", 225, "lbs"],
                        ["Overhead Press", 185, "lbs"]]
 
 print("My weightlifting stats are: ", weightlifting_stats)
-                       
-                       
+
+# I want to create a list that contains only the weight values from my weightlifting stats.
+# This will help me analyze my progress more easily.                       
+weightlifting_numbers = [
+    weightlifting_stats[0][1],  # Bench Press weight
+    weightlifting_stats[1][1],  # Squat weight
+    weightlifting_stats[2][1],  # Deadlift weight
+    weightlifting_stats[3][1]   # Overhead Press weight
+]
