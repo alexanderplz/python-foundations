@@ -22,10 +22,10 @@ weightlifting_numbers = [
     weightlifting_stats[0][1],  # Bench Press weight
     weightlifting_stats[1][1],  # Squat weight
     weightlifting_stats[2][1],  # Deadlift weight
-    weightlifting_stats[3][1],   # Overhead Press weight
+    weightlifting_stats[3][1],  # Overhead Press weight
     weightlifting_stats[4][1]   # Incline Bench Press weight
 ]
 
 print("My weightlifting stats are: ", weightlifting_stats)
 print(weightlifting_numbers[:5])
-
+print("The highest amount that I can lift is", (max(weightlifting_numbers)), "lbs!")  # This will return the maximum weight lifted.
